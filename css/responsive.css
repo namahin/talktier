@@ -44,8 +44,9 @@
         margin-bottom: 38px;
     }
 
-    .hero-content .form p.d-none {
-        display: block;
+    .hero-content .form p {
+        font-size: 14px;
+        line-height: 21px;
     }
 
     .hero-content .form form {
@@ -80,10 +81,6 @@
 
     .footer-nav ul li {
         margin-right: 15px;
-    }
-
-    .footer-nav ul li:last-child {
-        margin: 0;
     }
 
     .footer-nav ul {

@@ -110,12 +110,11 @@ header {
     margin-bottom: 120px;
 }
 
-.hero-content .form .d-none {
-    display: none;
+.hero-content .form p {
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 18px;
+    line-height: 27px;
     color: #FFFFFF;
 }
 
@@ -189,11 +188,15 @@ footer {
     display: inline-block;
 }
 
+.footer-nav ul li:last-child {
+    margin: 0;
+}
+
 .footer-nav ul li a {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 22px;
     color: #FFFFFF;
 }
 
@@ -201,14 +204,18 @@ footer {
     color: #9B51E0;
 }
 
-
-
 .social-nav ul {
     list-style: none;
 }
 
 .social-nav ul li {
     text-align: right;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.social-nav ul li:first-child {
+    margin: 0;
 }
 
 .social-nav ul li a {
@@ -226,4 +233,14 @@ footer {
 
 .social-nav ul li a svg:hover {
     fill: #9B51E0;
+}
+
+.social-nav ul li a.icon-twitter svg {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 8%;
+}
+
+.social-nav ul li a.icon-twitter svg:hover {
+    stroke: #9B51E0;
 }
