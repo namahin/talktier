@@ -87,6 +87,9 @@
         text-align: center;
         margin-top: 22px;
     }
+    .social-nav ul li{
+        margin-left: 25px;
+    }
 }
 
 @media (max-width: 402px) {
