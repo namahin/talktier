@@ -96,4 +96,7 @@
     .container {
         padding: 0 15px;
     }
+    .footer-nav ul li a{
+        font-size: 13px;
+    }
 }
