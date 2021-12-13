@@ -11,18 +11,20 @@ button {
     transition: linear .2s;
     text-decoration: none;
 }
+
 ::placeholder {
     color: #FFFFFF;
     opacity: .8;
-  }
-  
-  :-ms-input-placeholder {
+}
+
+:-ms-input-placeholder {
     color: #FFFFFF;
-  }
-  
-  ::-ms-input-placeholder {
+}
+
+::-ms-input-placeholder {
     color: #FFFFFF;
-  }
+}
+
 html,
 body {
     background-image: url(../images/hero-banner.jpg);
@@ -51,13 +53,9 @@ header {
     text-align: center;
 }
 
-.brand a {}
-
 .brand a img {
     max-width: 163px;
 }
-
-.hero-sec {}
 
 .hero-content {
     position: absolute;
@@ -83,11 +81,14 @@ header {
     font-size: 40px;
     line-height: 60px;
     color: #FFFFFF;
-    background: #9B51E080;
     width: fit-content;
     margin: auto;
-    padding: 0 30px;
     margin-bottom: 13px;
+}
+
+.hero-content h3 span {
+    background: #9B51E080;
+    padding: 0 30px;
 }
 
 .hero-content h2 {
@@ -98,8 +99,6 @@ header {
     color: #FFFFFF;
     margin-bottom: 120px;
 }
-
-.hero-content .form {}
 
 .hero-content .form .d-none {
     display: none;
@@ -119,6 +118,7 @@ header {
     margin: auto;
     position: relative;
     padding: 5px;
+    margin-bottom: 23px;
 }
 
 .hero-content .form form input {
@@ -170,12 +170,6 @@ footer {
     align-items: center;
 }
 
-.row .col-left {}
-
-.row .col-right {}
-
-.footer-nav {}
-
 .footer-nav ul {
     list-style: none;
 }
@@ -198,7 +192,6 @@ footer {
 }
 
 
-.social-nav {}
 
 .social-nav ul {
     list-style: none;
@@ -220,6 +213,7 @@ footer {
     fill: #ffffff;
     transition: linear .2s;
 }
-.social-nav ul li a svg:hover{
+
+.social-nav ul li a svg:hover {
     fill: #9B51E0;
 }
