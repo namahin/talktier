@@ -1,7 +1,7 @@
 /* landscape phones, less than 768px */
 @media (max-width: 767.98px) {
 
-    body {
+    html {
         background-image: url(../images/hero-banner-mobile.jpg);
     }
 
@@ -121,8 +121,9 @@
         overflow: hidden;
     }
 
-    body {
+    html {
         overflow-y: scroll;
+        height: unset;
     }
 
     .hero-sec {
