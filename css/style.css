@@ -31,14 +31,16 @@ body {
     position: relative;
 }
 
-.hero-sec {
+body {
     background-image: url(../images/hero-banner.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-    background-attachment: scroll;
-    height: 100vh;
-    overflow: hidden;
+    background-attachment: fixed;
+}
+
+.hero-sec {
+    min-height: 100vh;
 }
 
 header {
@@ -46,7 +48,7 @@ header {
     backdrop-filter: blur(15px);
     padding: 30px 0;
     border-bottom: 1px solid #ffffff21;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;

@@ -1,7 +1,7 @@
 /* landscape phones, less than 768px */
 @media (max-width: 767.98px) {
 
-    .hero-sec {
+    body {
         background-image: url(../images/hero-banner-mobile.jpg);
     }
 
@@ -114,5 +114,32 @@
     .wow {
         animation-name: none !important;
         visibility: visible !important;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        top: unset;
+        left: unset;
+        transform: unset;
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    .hero-sec {
+        min-height: unset;
+    }
+
+    footer {
+        position: relative;
+        bottom: unset;
+        left: unset;
+        right: unset;
     }
 }
