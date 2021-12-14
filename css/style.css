@@ -40,6 +40,10 @@ html {
     height: 100vh;
 }
 
+body {
+    height: 100%;
+}
+
 header {
     background: #00000008;
     backdrop-filter: blur(15px);
@@ -67,7 +71,7 @@ header {
     max-width: 163px;
 }
 
-.hero-sec{
+.hero-sec {
     position: absolute;
     top: 50%;
     left: 50%;
