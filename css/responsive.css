@@ -1,5 +1,9 @@
 /* landscape phones, less than 768px */
 @media (max-width: 767.98px) {
+    .wow {
+        animation-name: none !important;
+        visibility: visible !important;
+    }
 
     html {
         background-image: url(../images/hero-banner-mobile.jpg);
@@ -112,10 +116,6 @@
 
 /* iPhone 6/7/8 and smaller */
 @media (max-height: 667px) {
-    .wow {
-        animation-name: none !important;
-        visibility: visible !important;
-    }
 
     html,
     body {
