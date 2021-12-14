@@ -61,6 +61,7 @@ header {
 
 .brand {
     text-align: center;
+    line-height: 0;
 }
 
 .brand a img {
