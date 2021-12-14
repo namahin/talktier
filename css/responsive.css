@@ -87,7 +87,8 @@
         text-align: center;
         margin-top: 22px;
     }
-    .social-nav ul li{
+
+    .social-nav ul li {
         margin-left: 25px;
     }
 }
@@ -96,7 +97,16 @@
     .container {
         padding: 0 15px;
     }
-    .footer-nav ul li a{
+
+    .footer-nav ul li a {
         font-size: 13px;
+    }
+}
+
+/* iPhone 6/7/8 and smaller */
+@media (max-height: 667px) {
+    .wow {
+        animation-name: none !important;
+        visibility: visible !important;
     }
 }
