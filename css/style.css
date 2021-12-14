@@ -37,10 +37,7 @@ body {
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.hero-sec {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 header {
@@ -70,7 +67,7 @@ header {
     max-width: 163px;
 }
 
-.hero-content {
+.hero-sec{
     position: absolute;
     top: 50%;
     left: 50%;
