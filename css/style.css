@@ -47,6 +47,7 @@ body {
 header {
     background: #00000008;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     padding: 30px 0;
     border-bottom: 1px solid #ffffff21;
     position: fixed;
