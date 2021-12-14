@@ -35,7 +35,7 @@
     }
 
     .hero-content h3 span {
-        padding: 0 15px;
+        padding: 0 3px;
     }
 
     .hero-content h2 {
@@ -47,6 +47,8 @@
     .hero-content .form p {
         font-size: 14px;
         line-height: 21px;
+        text-align: center;
+        display: block;
     }
 
     .hero-content .form form {
