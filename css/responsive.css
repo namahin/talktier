@@ -44,6 +44,10 @@
         margin-bottom: 38px;
     }
 
+    .hero-content .form form {
+        margin-bottom: 15px;
+    }
+
     .hero-content .form p {
         font-size: 14px;
         line-height: 21px;
